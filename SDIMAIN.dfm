@@ -38,9 +38,11 @@ object SDIAppForm: TSDIAppForm
       Caption = 'Windows'
       object InputData: TMenuItem
         Caption = 'Input data'
+        OnClick = InputDataClick
       end
       object Mode: TMenuItem
         Caption = 'Mode'
+        OnClick = ModeClick
       end
       object Solvation: TMenuItem
         Caption = 'Solvation'

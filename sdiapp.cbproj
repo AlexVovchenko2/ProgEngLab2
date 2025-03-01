@@ -124,8 +124,15 @@
             <BuildOrder>4</BuildOrder>
             <PCH>true</PCH>
         </PCHCompile>
+        <CppCompile Include="UnitInput.cpp">
+            <Form>DataInput</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>UnitInput.h</DependentOn>
+            <BuildOrder>5</BuildOrder>
+        </CppCompile>
         <FormResources Include="SDIMAIN.dfm"/>
         <FormResources Include="ABOUT.dfm"/>
+        <FormResources Include="UnitInput.dfm"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

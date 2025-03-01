@@ -37,6 +37,8 @@ __published:
 	TMenuItem *About;
 	void __fastcall Exit1Click(TObject *Sender);
 	void __fastcall AboutClick(TObject *Sender);
+	void __fastcall ModeClick(TObject *Sender);
+	void __fastcall InputDataClick(TObject *Sender);
 private:
 public:
 	virtual __fastcall TSDIAppForm(TComponent *AOwner);

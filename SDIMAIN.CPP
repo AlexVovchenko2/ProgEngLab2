@@ -4,6 +4,7 @@
 
 #include "SDIMain.h"
 #include "About.h"
+#include "UnitInput.h"
 //---------------------------------------------------------------------
 #pragma resource "*.dfm"
 TSDIAppForm *SDIAppForm;
@@ -26,6 +27,19 @@ void __fastcall TSDIAppForm::Exit1Click(TObject *Sender)
 void __fastcall TSDIAppForm::AboutClick(TObject *Sender)
 {
 	AboutBox->ShowModal();
+}
+//---------------------------------------------------------------------------
+
+
+void __fastcall TSDIAppForm::ModeClick(TObject *Sender)
+{
+	//Form1->Show();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TSDIAppForm::InputDataClick(TObject *Sender)
+{
+	DataInput->Show();
 }
 //---------------------------------------------------------------------------
 

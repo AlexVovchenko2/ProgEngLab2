@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2025.03.01 22:20:58.866,=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit2.cpp</Transaction>
-    <Transaction>2025.03.01 22:25:21.537,C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit2.cpp=</Transaction>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.537,C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit2.cpp=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.866,=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit2.cpp</Transaction>
+    <Transaction>2025.03.01 22:40:53.727,=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.cpp</Transaction>
+    <Transaction>2025.03.01 22:41:16.579,C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\UnitInput.cpp=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.cpp</Transaction>
+    <Transaction>2025.03.01 22:41:16.579,C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\UnitInput.dfm=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.dfm</Transaction>
+    <Transaction>2025.03.01 22:41:16.579,C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\UnitInput.h=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.h</Transaction>
   </Transactions>
 </BorlandProject>
