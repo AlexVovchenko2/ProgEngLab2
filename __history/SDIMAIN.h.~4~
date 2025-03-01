@@ -1,0 +1,39 @@
+//----------------------------------------------------------------------------
+#ifndef SDIMainH
+#define SDIMainH
+//----------------------------------------------------------------------------
+#include <Vcl.ComCtrls.hpp>
+#include <Vcl.ExtCtrls.hpp>
+#include <Vcl.Buttons.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Dialogs.hpp>
+#include <Vcl.Menus.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.Forms.hpp>
+#include <Vcl.Graphics.hpp>
+#include <System.Classes.hpp>
+#include <Winapi.Windows.hpp>
+#include <System.hpp>
+#include <Vcl.ActnList.hpp>
+#include <Vcl.ImgList.hpp>
+#include <Vcl.StdActns.hpp>
+#include <Vcl.ToolWin.hpp>
+#include <System.Actions.hpp>
+#include <System.ImageList.hpp>
+//----------------------------------------------------------------------------
+class TSDIAppForm : public TForm
+{
+__published:
+	TStatusBar *StatusBar;
+	TMainMenu *MainMenu1;
+	TMenuItem *File1;
+	TMenuItem *Exit1;
+	void __fastcall Exit1Click(TObject *Sender);
+private:
+public:
+    virtual __fastcall TSDIAppForm(TComponent *AOwner);
+};
+//----------------------------------------------------------------------------
+extern TSDIAppForm *SDIAppForm;
+//----------------------------------------------------------------------------
+#endif

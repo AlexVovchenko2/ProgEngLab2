@@ -1,0 +1,37 @@
+object SDIAppForm: TSDIAppForm
+  Left = 197
+  Top = 111
+  Caption = 'SDI Application'
+  ClientHeight = 422
+  ClientWidth = 541
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'System'
+  Font.Style = []
+  Menu = MainMenu1
+  TextHeight = 16
+  object StatusBar: TStatusBar
+    Left = 0
+    Top = 403
+    Width = 541
+    Height = 19
+    AutoHint = True
+    Panels = <>
+    SimplePanel = True
+    ExplicitTop = 173
+    ExplicitWidth = 354
+  end
+  object MainMenu1: TMainMenu
+    Left = 72
+    Top = 48
+    object File1: TMenuItem
+      Caption = 'File'
+      Default = True
+      object Wnd: TMenuItem
+        Caption = 'Windows'
+      end
+    end
+  end
+end
