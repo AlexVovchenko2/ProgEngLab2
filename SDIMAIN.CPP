@@ -32,7 +32,7 @@ void __fastcall TSDIAppForm::AboutClick(TObject *Sender)
 
 void __fastcall TSDIAppForm::ModeClick(TObject *Sender)
 {
-	//Form1->Show();
+	OKRightDlg->Show();
 }
 //---------------------------------------------------------------------------
 

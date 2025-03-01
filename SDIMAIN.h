@@ -24,6 +24,7 @@
 #include "About.h"
 #include "UnitInput.h"
 #include "UnitTask.h"
+#include "OKCANCL2.h"
 //----------------------------------------------------------------------------
 class TSDIAppForm : public TForm
 {
