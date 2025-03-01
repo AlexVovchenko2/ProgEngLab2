@@ -15,6 +15,9 @@ __fastcall TDataInput::TDataInput(TComponent* Owner)
 	StringGrid->Hide();
 }
 //---------------------------------------------------------------------------
+
+UserTask ut(0, 0);
+
 void __fastcall TDataInput::ButtonClick(TObject *Sender)
 {
     int n,m;
@@ -26,8 +29,22 @@ void __fastcall TDataInput::ButtonClick(TObject *Sender)
 	StringGrid->RowCount = n;
 	StringGrid->ColCount = m;
 	if (n > 0 && m > 0){
+		ut.n = n;
+		ut.m = m;
+		ut.createVect();
 		Button->Hide();
 		StringGrid->Show();
 	}
+}
+//---------------------------------------------------------------------------
+void __fastcall TDataInput::ButtonInputClick(TObject *Sender)
+{
+	for (int i = 0; i < ut.m; i++) {
+		for (int j = 0; j < ut.n; j++) {
+			ut.matrix[i][j] = (StringGrid->Cells[i][j] != "") ?
+			 StrToFloat(StringGrid->Cells[i][j]) : 0;
+		}
+	}
+	DataInput->Close();
 }
 //---------------------------------------------------------------------------

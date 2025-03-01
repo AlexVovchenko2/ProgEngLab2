@@ -3,8 +3,7 @@
 #pragma hdrstop
 
 #include "SDIMain.h"
-#include "About.h"
-#include "UnitInput.h"
+
 //---------------------------------------------------------------------
 #pragma resource "*.dfm"
 TSDIAppForm *SDIAppForm;

@@ -57,6 +57,16 @@ object DataInput: TDataInput
     Height = 120
     FixedCols = 0
     FixedRows = 0
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goFixedRowDefAlign]
     TabOrder = 3
+  end
+  object ButtonInput: TButton
+    Left = 143
+    Top = 176
+    Width = 75
+    Height = 25
+    Caption = 'Enter'
+    TabOrder = 4
+    OnClick = ButtonInputClick
   end
 end

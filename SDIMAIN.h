@@ -20,7 +20,10 @@
 #include <Vcl.ToolWin.hpp>
 #include <System.Actions.hpp>
 #include <System.ImageList.hpp>
+
 #include "About.h"
+#include "UnitInput.h"
+#include "UnitTask.h"
 //----------------------------------------------------------------------------
 class TSDIAppForm : public TForm
 {
