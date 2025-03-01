@@ -109,6 +109,12 @@
             <DependentOn>ABOUT.h</DependentOn>
             <BuildOrder>2</BuildOrder>
         </CppCompile>
+        <CppCompile Include="OKCANCL2.cpp">
+            <Form>OKRightDlg</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>OKCANCL2.h</DependentOn>
+            <BuildOrder>7</BuildOrder>
+        </CppCompile>
         <CppCompile Include="sdiapp.cpp">
             <BuildOrder>0</BuildOrder>
         </CppCompile>
@@ -130,9 +136,14 @@
             <DependentOn>UnitInput.h</DependentOn>
             <BuildOrder>5</BuildOrder>
         </CppCompile>
+        <CppCompile Include="UnitTask.cpp">
+            <DependentOn>UnitTask.h</DependentOn>
+            <BuildOrder>6</BuildOrder>
+        </CppCompile>
         <FormResources Include="SDIMAIN.dfm"/>
         <FormResources Include="ABOUT.dfm"/>
         <FormResources Include="UnitInput.dfm"/>
+        <FormResources Include="OKCANCL2.dfm"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
