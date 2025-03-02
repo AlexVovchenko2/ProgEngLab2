@@ -1,21 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899.12.30 00:00:00.000.537,C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit2.cpp=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.209,C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.cpp=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Mode.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.379,=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.991,C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.cpp=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\UnitTask.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.484,=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.134,=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\OKCNHLP1.cpp</Transaction>
     <Transaction>1899.12.30 00:00:00.000.866,=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit2.cpp</Transaction>
-    <Transaction>2025.03.01 22:40:53.727,=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.cpp</Transaction>
-    <Transaction>2025.03.01 22:41:16.579,C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\UnitInput.dfm=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.dfm</Transaction>
-    <Transaction>2025.03.01 22:41:16.579,C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\UnitInput.cpp=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.cpp</Transaction>
-    <Transaction>2025.03.01 22:41:16.579,C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\UnitInput.h=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.h</Transaction>
-    <Transaction>2025.03.02 00:17:59.484,=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.cpp</Transaction>
-    <Transaction>2025.03.02 00:21:32.991,C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\UnitTask.h=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.h</Transaction>
-    <Transaction>2025.03.02 00:21:32.991,C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\UnitTask.cpp=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.cpp</Transaction>
-    <Transaction>2025.03.02 00:38:28.379,=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.cpp</Transaction>
-    <Transaction>2025.03.02 00:38:44.209,C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Mode.h=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.h</Transaction>
-    <Transaction>2025.03.02 00:38:44.209,C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Mode.dfm=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.dfm</Transaction>
-    <Transaction>2025.03.02 00:38:44.209,C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Mode.cpp=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.cpp</Transaction>
-    <Transaction>2025.03.02 00:44:54.437,C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Mode.cpp=</Transaction>
-    <Transaction>2025.03.02 00:45:54.134,=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\OKCNHLP1.cpp</Transaction>
-    <Transaction>2025.03.02 00:47:25.792,=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\OKCANCL2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.537,C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit2.cpp=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.209,C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.dfm=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Mode.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.579,C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.dfm=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\UnitInput.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.579,C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.h=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\UnitInput.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.991,C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.h=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\UnitTask.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.209,C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.h=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Mode.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.437,C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Mode.cpp=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.579,C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.cpp=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\UnitInput.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.727,=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.792,=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\OKCANCL2.cpp</Transaction>
+    <Transaction>2025.03.02 20:13:56.781,=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.cpp</Transaction>
+    <Transaction>2025.03.02 20:14:35.311,C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\UnitAnswer.h=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.h</Transaction>
+    <Transaction>2025.03.02 20:14:35.311,C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\UnitAnswer.dfm=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.dfm</Transaction>
+    <Transaction>2025.03.02 20:14:35.311,C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\UnitAnswer.cpp=C:\Users\alexv\Documents\Embarcadero\Studio\Projects\lab2\Unit1.cpp</Transaction>
   </Transactions>
 </BorlandProject>

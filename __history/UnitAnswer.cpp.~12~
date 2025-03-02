@@ -1,0 +1,49 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "UnitAnswer.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TFormAnswer *FormAnswer;
+//---------------------------------------------------------------------------
+__fastcall TFormAnswer::TFormAnswer(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+
+int task1(std::vector<std::vector<float>> matrix, int n, int m);
+int task2(std::vector<std::vector<float>> matrix, int n, int m);
+
+void __fastcall TFormAnswer::ButtonAnswerClick(TObject *Sender)
+{
+	FormAnswer->LabelComment->Caption = "Mode: " + (AnsiString)OKRightDlg->mode;
+	UserTask ut(0, 0);
+	ut.n = DataInput->StringGrid->RowCount;
+	ut.m = DataInput->StringGrid->ColCount;
+	ut.createVect();
+	for (int i = 0; i < ut.m; i++) {
+		for (int j = 0; j < ut.n; j++) {
+			ut.matrix[j][i] = (DataInput->StringGrid->Cells[i][j] != "") ?
+			 StrToFloat(DataInput->StringGrid->Cells[i][j]) : 0;
+        }
+    }
+	int ans = -2;
+	if (OKRightDlg->mode) {
+		ans = task2(ut.matrix, ut.n, ut.m);
+		LabelAnswer->Caption = "Non-zero elems in even cols" ans;
+	}   else {
+		ans = task1(ut.matrix, ut.n, ut.m);
+	}
+	//LabelAnswer->Caption = ans;
+}
+//---------------------------------------------------------------------------
+void __fastcall TFormAnswer::ButtonCloseClick(TObject *Sender)
+{
+    LabelAnswer->Caption = "...";
+	Close();
+}
+//---------------------------------------------------------------------------

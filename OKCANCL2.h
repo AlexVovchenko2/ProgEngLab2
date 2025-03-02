@@ -12,15 +12,18 @@
 #include <System.SysUtils.hpp>
 #include <Winapi.Windows.hpp>
 #include <System.hpp>
+
+#include "UnitTask.h"
 //----------------------------------------------------------------------------
 class TOKRightDlg : public TForm
 {
 __published:
 	TButton *OKBtn;
-	TButton *CancelBtn;
-	TBevel *Bevel1;
+	TRadioGroup *RadioGroup;
+	void __fastcall OKBtnClick(TObject *Sender);
 private:
 public:
+	bool mode;
 	virtual __fastcall TOKRightDlg(TComponent* AOwner);
 };
 //----------------------------------------------------------------------------

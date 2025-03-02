@@ -3,7 +3,7 @@
 #pragma hdrstop
 
 #include "SDIMain.h"
-#include "About.h"
+
 //---------------------------------------------------------------------
 #pragma resource "*.dfm"
 TSDIAppForm *SDIAppForm;
@@ -14,34 +14,37 @@ __fastcall TSDIAppForm::TSDIAppForm(TComponent *AOwner)
 }
 //---------------------------------------------------------------------
 
-/*void __fastcall TSDIAppForm::FileNew1Execute(TObject *Sender)
-{
-  // Do nothing        
-}  */
-//---------------------------------------------------------------------------
-  /*
-void __fastcall TSDIAppForm::FileOpen1Execute(TObject *Sender)
-{
-  OpenDialog->Execute();
-}*
+
 //---------------------------------------------------------------------------
 
-void __fastcall TSDIAppForm::FileSave1Execute(TObject *Sender)
+void __fastcall TSDIAppForm::Exit1Click(TObject *Sender)
 {
-  SaveDialog->Execute();        
+    Close();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TSDIAppForm::AboutClick(TObject *Sender)
+{
+	AboutBox->ShowModal();
 }
 //---------------------------------------------------------------------------
 
 
-void __fastcall TSDIAppForm::FileExit1Execute(TObject *Sender)
+void __fastcall TSDIAppForm::ModeClick(TObject *Sender)
 {
-  Close();        
+	OKRightDlg->Show();
 }
 //---------------------------------------------------------------------------
 
-void __fastcall TSDIAppForm::HelpAbout1Execute(TObject *Sender)
+void __fastcall TSDIAppForm::InputDataClick(TObject *Sender)
 {
-  AboutBox->ShowModal();        
-}    */
+	DataInput->Show();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TSDIAppForm::SolvationClick(TObject *Sender)
+{
+	FormAnswer->Show();
+}
 //---------------------------------------------------------------------------
 

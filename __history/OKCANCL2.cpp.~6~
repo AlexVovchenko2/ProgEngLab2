@@ -1,0 +1,30 @@
+//---------------------------------------------------------------------
+#include <vcl.h>
+#pragma hdrstop
+
+#include "OKCANCL2.h"
+//---------------------------------------------------------------------
+#pragma resource "*.dfm"
+TOKRightDlg *OKRightDlg;
+//--------------------------------------------------------------------- 
+__fastcall TOKRightDlg::TOKRightDlg(TComponent* AOwner)
+	: TForm(AOwner)
+{
+}
+//---------------------------------------------------------------------
+
+
+void __fastcall TOKRightDlg::OKBtnClick(TObject *Sender)
+{
+	if(RadioGroup->ItemIndex == 0) {
+		mode = false;
+	}
+	else if (RadioGroup->ItemIndex == 1) {
+		mode = true;
+	} else {
+
+    }
+	Close();
+}
+//---------------------------------------------------------------------------
+

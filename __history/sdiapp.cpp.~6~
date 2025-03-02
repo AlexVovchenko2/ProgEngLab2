@@ -1,0 +1,24 @@
+//---------------------------------------------------------------------
+#include <vcl.h>
+#pragma hdrstop
+#include <tchar.h>
+//---------------------------------------------------------------------
+USEFORM("SDIMAIN.CPP", SDIAppForm);
+USEFORM("UnitInput.cpp", DataInput);
+USEFORM("ABOUT.CPP", AboutBox);
+USEFORM("OKCANCL2.cpp", OKRightDlg);
+USEFORM("UnitAnswer.cpp", Form1);
+//---------------------------------------------------------------------------
+int WINAPI _tWinMain(HINSTANCE, HINSTANCE, LPTSTR, int)
+{
+	Application->Initialize();
+	Application->CreateForm(__classid(TSDIAppForm), &SDIAppForm);
+		Application->CreateForm(__classid(TAboutBox), &AboutBox);
+		Application->CreateForm(__classid(TDataInput), &DataInput);
+		Application->CreateForm(__classid(TOKRightDlg), &OKRightDlg);
+		Application->CreateForm(__classid(TForm1), &Form1);
+		Application->Run();
+
+	return 0;
+}
+//---------------------------------------------------------------------

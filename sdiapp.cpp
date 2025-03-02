@@ -4,9 +4,10 @@
 #include <tchar.h>
 //---------------------------------------------------------------------
 USEFORM("SDIMAIN.CPP", SDIAppForm);
-USEFORM("ABOUT.CPP", AboutBox);
 USEFORM("UnitInput.cpp", DataInput);
+USEFORM("ABOUT.CPP", AboutBox);
 USEFORM("OKCANCL2.cpp", OKRightDlg);
+USEFORM("UnitAnswer.cpp", FormAnswer);
 //---------------------------------------------------------------------------
 int WINAPI _tWinMain(HINSTANCE, HINSTANCE, LPTSTR, int)
 {
@@ -15,6 +16,7 @@ int WINAPI _tWinMain(HINSTANCE, HINSTANCE, LPTSTR, int)
 		Application->CreateForm(__classid(TAboutBox), &AboutBox);
 		Application->CreateForm(__classid(TDataInput), &DataInput);
 		Application->CreateForm(__classid(TOKRightDlg), &OKRightDlg);
+		Application->CreateForm(__classid(TFormAnswer), &FormAnswer);
 		Application->Run();
 
 	return 0;

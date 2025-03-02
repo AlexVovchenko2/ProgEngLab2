@@ -1,0 +1,43 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "UnitAnswer.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TFormAnswer *FormAnswer;
+//---------------------------------------------------------------------------
+__fastcall TFormAnswer::TFormAnswer(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TFormAnswer::ButtonAnswerClick(TObject *Sender)
+{
+	UserTask ut(0, 0);
+	ut.n = DataInput->StringGrid->RowCoumt;
+	ut.n = DataInput->StringGrid->ColCoumt;
+	ut.createVect();
+	for (int i = 0; i < ut.m; i++) {
+		for (int j = 0; j < ut.n; j++) {
+			ut.matrix[j][i] = (DataInput->StringGrid->Cells[i][j] != "") ?
+			 StringToFloat(DataInput->StringGrid->Cells[i][j]) : 0;
+        }
+    }
+	int ans = -2;
+	if (mode) {
+		ans = task2(ut.matrix, ut.n, ut.m);
+	}   else {
+		ans = task1(ut.matrix, ut.n, ut.m);
+    }
+	LabelAnswer->Caption = ans;
+}
+//---------------------------------------------------------------------------
+void __fastcall TFormAnswer::ButtonCloseClick(TObject *Sender)
+{
+    LabelAnswer->Caption = "...";
+	Close();
+}
+//---------------------------------------------------------------------------

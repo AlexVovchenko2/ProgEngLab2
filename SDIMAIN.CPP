@@ -11,8 +11,10 @@ TSDIAppForm *SDIAppForm;
 __fastcall TSDIAppForm::TSDIAppForm(TComponent *AOwner)
 	: TForm(AOwner)
 {
+
 }
 //---------------------------------------------------------------------
+
 
 
 //---------------------------------------------------------------------------
@@ -39,6 +41,12 @@ void __fastcall TSDIAppForm::ModeClick(TObject *Sender)
 void __fastcall TSDIAppForm::InputDataClick(TObject *Sender)
 {
 	DataInput->Show();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TSDIAppForm::SolvationClick(TObject *Sender)
+{
+	FormAnswer->Show();
 }
 //---------------------------------------------------------------------------
 

@@ -25,6 +25,7 @@
 #include "UnitInput.h"
 #include "UnitTask.h"
 #include "OKCANCL2.h"
+#include "UnitAnswer.h"
 //----------------------------------------------------------------------------
 class TSDIAppForm : public TForm
 {
@@ -43,6 +44,7 @@ __published:
 	void __fastcall AboutClick(TObject *Sender);
 	void __fastcall ModeClick(TObject *Sender);
 	void __fastcall InputDataClick(TObject *Sender);
+	void __fastcall SolvationClick(TObject *Sender);
 private:
 public:
 	virtual __fastcall TSDIAppForm(TComponent *AOwner);

@@ -1,0 +1,22 @@
+//---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "UnitTask.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+
+int task1(std::vector<std::vector<float>> matrix, int n, int m) {
+
+	return -1;
+}
+
+int task2(std::vector<std::vector<float>> matrix, int n, int m) {
+	int counter = 0;
+    for (int i = 0; i < m; i+=2) {
+		for (int j = 0; j < n; j++) {
+			if (matrix[i][j] == 0) { counter++; }
+		}
+	}
+	return counter;
+}

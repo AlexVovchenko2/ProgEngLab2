@@ -130,6 +130,12 @@
             <BuildOrder>4</BuildOrder>
             <PCH>true</PCH>
         </PCHCompile>
+        <CppCompile Include="UnitAnswer.cpp">
+            <Form>FormAnswer</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>UnitAnswer.h</DependentOn>
+            <BuildOrder>8</BuildOrder>
+        </CppCompile>
         <CppCompile Include="UnitInput.cpp">
             <Form>DataInput</Form>
             <FormType>dfm</FormType>
@@ -141,9 +147,10 @@
             <BuildOrder>6</BuildOrder>
         </CppCompile>
         <FormResources Include="SDIMAIN.dfm"/>
-        <FormResources Include="ABOUT.dfm"/>
         <FormResources Include="UnitInput.dfm"/>
+        <FormResources Include="ABOUT.dfm"/>
         <FormResources Include="OKCANCL2.dfm"/>
+        <FormResources Include="UnitAnswer.dfm"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

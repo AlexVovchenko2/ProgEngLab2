@@ -1,0 +1,16 @@
+//---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "UnitTask.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+
+int task1(std::vector<std::vector<float>> matrix, int n, int m) {
+
+	return -1;
+}
+
+int task2(std::vector<std::vector<float>> matrix, int n, int m) {
+	return 0;
+}

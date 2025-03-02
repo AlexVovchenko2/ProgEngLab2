@@ -5,7 +5,9 @@
 
 #include <vector>
 
-class UserTask{
+ bool mode = true;        //mode
+
+class UserTask {
 public:
 	int n, m;
 	std::vector<std::vector<float>> matrix;
@@ -17,8 +19,8 @@ public:
 
     void createVect(){
 		std::vector<float> temp;
-		for (int i = 0; i < this->m; i++) {
-			for (int j = 0; j < this->n; j++)
+		for (int i = 0; i < this->n; i++) {
+			for (int j = 0; j < this->m; j++)
 				temp.push_back(0.0);
 			this->matrix.push_back(temp);
 			temp.clear();
